@@ -1,0 +1,319 @@
+body {
+  font-family: "Times New Roman", serif;
+}
+
+/* Header, navbar */
+
+header {
+  
+  background-image: url('./images/desktop/image-header.jpg');
+  color:white;
+}
+
+ #rightnav {
+  position: absolute; 
+  right: 0;
+  
+ }
+
+ #sunnyside {
+  font-weight:bold;
+  font-size: 40px;
+ }
+
+ #contact {
+   border-radius: 30px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+ #creatives {
+  text-align:center;
+  
+}
+
+#contactnav {
+  margin:30px;
+  width: 150px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.nav-item {
+  margin:30px;
+}
+
+
+/* We are creatives */
+
+#creatives {
+  background-image: url('./images/desktop/image-header.jpg');
+  height:1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#creativesh1 {
+  font-size: 60px;
+  font-weight:bold;
+  color:white;
+  position: relative;
+  top: 20%;
+  
+}
+
+#transformtext {
+  padding: 0px;
+  margin: auto;
+  
+}
+
+#transformpic {
+  background-image: url('./images/desktop/image-transform.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  padding: 0px;
+}
+
+#standoutpic {
+  background-image: url('./images/desktop/image-stand-out.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  padding: 0px;
+}
+#standouttext {
+  padding: 0px;
+  margin: auto;
+}
+
+#graphtextpic1 {
+  background-image: url('./images/desktop/image-graphic-design.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  padding: 0px;
+  
+  
+}
+
+#graphic {
+  text-align: center;
+}
+
+#graphtextpic2 {
+  background-image: url('./images/desktop/image-photography.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  padding: 0px;
+}
+
+/*Cards*/
+.card {
+  border: none;
+}
+.card-body {
+  
+  width: 350px;
+  margin: auto
+}
+
+.card-text {
+  font-family:  Arial, Helvetica, sans-serif;
+}
+.card-link {
+  color: black;
+}
+
+#cardlink2 {
+  background-color: rgb(252, 224, 225);
+  border-radius:10px;
+}
+
+#cardlink1 {
+  background-color: rgb(254, 255, 177);
+  border-radius:10px;
+}
+
+#graphcard, #photocard {
+  position: relative;
+  top: 100%;
+transform: translateY(-100%);
+                
+}
+#photocard {
+  width:310px;
+}
+
+#testimonials {
+  height: 750px;
+  
+}
+
+#clienttitle {
+  text-align: center;
+  position: relative;
+top: 20%;
+transform: translateY(-100%);
+font-size:30px;
+font-weight: bold;
+
+}
+
+.clientbody{
+  text-align: center;
+  margin: 0px;
+ 
+}
+
+.peopleimg {
+
+    border-radius: 50%;
+    width: 30%;
+}
+#gallery {
+  height:375px;
+}
+
+.galleryimg {
+  height: 375px;
+}
+
+
+
+.gallerycol {
+  padding:0px;
+}
+
+#clientrow {
+
+position: relative;
+top: 80%;
+transform: translateY(-100%);
+margin-left: auto;
+margin-right: auto;
+width: 1050px;            
+}
+
+
+footer {
+  
+  background-color: rgb(147, 224, 199);
+  color:rgb(35, 92, 73);
+  padding-top:80px;
+  padding-bottom: 80px;
+  
+}
+.btn-link {
+  color:rgb(35, 92, 73);
+}
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+
+
+@media screen and (max-width:990px) and (min-width:556px) {
+  footer {
+    position: relative;
+    top: 100px;
+  }
+    /* Collapse navbar */
+.navbar-toggler{
+  background-image: url('./images/navbar_hamburger.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(254, 255, 177);
+}
+ #rightnav{
+ border:2px solid white;
+} 
+#creativesh1{
+  position:relative;
+  top:400px;
+}
+
+
+
+/* Client testimonials additional positioning */
+.undercard {
+
+  text-align: center;
+  margin: auto;
+}
+#clientrow {
+
+  margin-top:280px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width:85%            
+  }
+#gallery{
+  position: relative;
+  top: 150px;
+}
+  }
+
+
+
+@media screen and (max-width:555px){
+  footer {
+    position: relative;
+    top: 1075px;
+  }
+
+  /* Collapse navbar */
+.navbar-toggler{
+  /* background-color: white; */
+  background-image: url('./images/navbar_hamburger.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(254, 255, 177);
+}
+
+ #rightnav{
+ border:2px solid white;
+} 
+#creativesh1{
+  position:relative;
+  top:400px;
+}
+
+
+
+/* Client testimonials additional positioning */
+.undercard {
+
+  text-align: center;
+  margin: auto;
+}
+#clientrow {
+
+  margin-top:280px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width:85%            
+  }
+#gallery{
+  position: relative;
+  top: 150px;
+}
+}
+
+/*Attribution, footer*/
+
+.attribution { font-size: 11px;  text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
